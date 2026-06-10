@@ -1,0 +1,6 @@
+-lib hxnodejs
+-cp src
+-cp example
+-D js-es=6
+-main Main
+--js bin/bot.js

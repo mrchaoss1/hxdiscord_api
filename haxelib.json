@@ -1,0 +1,15 @@
+{
+	"name": "hxdiscord_api",
+	"url": "https://github.com/mrchaoss1/hxdiscord_api",
+	"license": "MIT",
+	"tags": ["discord", "api", "bot", "gateway", "nodejs"],
+	"description": "A modern, interactions-first Discord API wrapper for Haxe (NodeJS, Discord API v10).",
+	"version": "0.1.0",
+	"classPath": "src",
+	"releasenote": "Initial release. Bot-token gateway + REST for Discord API v10: connect/heartbeat/identify/dispatch, intents, typed models, and a unified command system (prefix commands with global or per-command prefixes, condition rules, and slash commands with ephemeral replies), plus embeds. Targets Node.js and C++ (hxcpp).",
+	"contributors": ["mrchaoss1"],
+	"dependencies": {
+		"hxnodejs": "",
+		"haxe-ws": ""
+	}
+}

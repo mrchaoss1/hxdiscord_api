@@ -1,0 +1,24 @@
+# Build output
+/bin/
+
+# Node
+/node_modules/
+
+# Haxe
+*.hxml.lock
+dump/
+
+# Secrets
+/token.txt
+
+# Internal / local-only
+/CLAUDE.md
+
+# Release artifacts
+*.zip
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

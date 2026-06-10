@@ -1,0 +1,22 @@
+package types;
+
+enum abstract MessageType(Int) from Int to Int {
+	var DEFAULT = 0;
+	var RECIPIENT_ADD = 1;
+	var RECIPIENT_REMOVE = 2;
+	var CALL = 3;
+	var CHANNEL_NAME_CHANGE = 4;
+	var CHANNEL_ICON_CHANGE = 5;
+	var CHANNEL_PINNED_MESSAGE = 6;
+	var USER_JOIN = 7;
+	var GUILD_BOOST = 8;
+	var GUILD_BOOST_TIER_1 = 9;
+	var GUILD_BOOST_TIER_2 = 10;
+	var GUILD_BOOST_TIER_3 = 11;
+	var CHANNEL_FOLLOW_ADD = 12;
+	var THREAD_CREATED = 18;
+	var REPLY = 19;
+	var CHAT_INPUT_COMMAND = 20;
+	var THREAD_STARTER_MESSAGE = 21;
+	var CONTEXT_MENU_COMMAND = 23;
+}

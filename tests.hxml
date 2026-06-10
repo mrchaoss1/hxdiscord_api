@@ -1,0 +1,6 @@
+-lib hxnodejs
+-cp src
+-cp test
+-D js-es=6
+-main Tests
+--js bin/tests.js
