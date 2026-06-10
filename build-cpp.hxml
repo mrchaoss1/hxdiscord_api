@@ -1,0 +1,6 @@
+-lib haxe-ws
+-cp src
+-cp example
+-main Main
+--macro include('', true, ['platform.node'], ['src'])
+-cpp bin/cpp
